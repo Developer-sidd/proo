@@ -1,0 +1,106 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.content-div {
+  background-color: #e0e0e0;
+  margin: 2% 4% 0% 4%;
+}
+
+.info {
+  margin: 2% 0 2% 0;
+}
+
+.booking-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.image {
+  border-left: 1px solid black;
+  padding-left: 100px;
+  width: 65%;
+}
+.book-now {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.booking-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.image,
+.book-now {
+  height: 400px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  padding: 1%;
+}
+.image img {
+  height: 370px;
+  padding-left: 18.75%;
+}
+.col-25 {
+  float: left;
+  width: 30%;
+}
+
+.col-75 {
+  float: left;
+  width: 70%;
+}
+.row {
+  padding: 4% 4% 3% 0;
+}
+label {
+  padding: 5px 5px 0px 20px;
+  float: left;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 70%;
+
+  float: right;
+}
+
+.col-75 .btn {
+  left: 50%;
+  padding: 7px;
+  width: 50%;
+}
+/* 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.info h3,
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.stars-active {
+  color: orange;
+}
+
+.stars {
+  padding-bottom: 1%;
+}
+
+.carousel-control-prev-icon .carousel-control-next {
+  width: 100px;
+  fill: red;
+}
